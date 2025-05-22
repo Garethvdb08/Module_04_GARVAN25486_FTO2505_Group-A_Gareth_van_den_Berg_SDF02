@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SDF02</title>
+    <style>
+      .portfolio-table {
+        background-color: black;
+        width: 400px;
+      }
+
+      .table-header {
+        background-color: white;
+        width: 100%;
+      }
+
+      .table-body {
+        background-color: white;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -51,9 +67,9 @@
       <section>
         <!--Portfolio section-->
         <h2 id="portfolio">Catfolio</h2>
-        <table bgcolor="black">
-          <thead>
-            <tr bgcolor="white" width="100%">
+        <table class="portfolio-table">
+          <thead class="table-header">
+            <tr>
               <th>Project Name</th>
               <th>Date</th>
               <th>Description</th>
@@ -61,8 +77,8 @@
             </tr>
           </thead>
 
-          <tbody>
-            <tr bgcolor="white" width="100%">
+          <tbody class="table-body">
+            <tr>
               <td>Perfect Landing Page</td>
               <td>January 2024</td>
               <td>A delightful landing page for a luxury cat condo.</td>
@@ -71,7 +87,7 @@
               </td>
             </tr>
 
-            <tr bgcolor="white" width="100%">
+            <tr>
               <td>Kitty commerce</td>
               <td>February 2024</td>
               <td>An online store selling the funniest catnip toys</td>
@@ -80,17 +96,19 @@
               </td>
             </tr>
 
-            <tr bgcolor="white" width="100%">
+            <tr>
               <td>CatChat</td>
               <td>June 2024</td>
               <td>A social media site for cats to meow and hiss!.</td>
               <td>
-                <img src="images/3.png" alt="cat social media site" />
+                <img src="images/3.png" alt="Catchat home page" />
               </td>
             </tr>
           </tbody>
         </table>
+      </section>
 
+      <section>
         <!--Contact Me section-->
         <h2 id="contact">Contact Me</h2>
         <form action="">
@@ -104,5 +122,8 @@
         </form>
       </section>
     </main>
+    <br />
+    <br />
+    <footer>&copy;2024 CodeSpace Cat. All rights reserved.</footer>
   </body>
 </html>
